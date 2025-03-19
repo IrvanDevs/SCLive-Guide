@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import MainHeader from "./header/Main-header";
 import Menu from "./pages/Menu";
 import GeneralGuide from "./pages/GeneralGuide";
