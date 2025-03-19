@@ -1,0 +1,139 @@
+.Violation-list{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--dark-blue);
+    font-weight: 600;
+    border-bottom: 1px solid var(--dark-blue);
+}
+
+.Violation-list-text{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.Violation-content-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.Violation-sublist{
+    padding: 0;
+    padding-left: 18px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.Violation-sublist-text{
+    padding: 0;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.Icon{
+    color: #158E19;
+    min-width: 40px;
+    min-height: 40px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 1024px){
+    .Violation-list-text{
+        font-size: 17px;
+    }
+
+    .Violation-content-list{
+        margin: 12px 0;
+    }
+
+    .Violation-sublist{
+        margin-top: 2px;
+    }
+
+    .Violation-sublist-text{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .Icon{
+        min-width: 35px;
+        min-height: 35px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .Violation-list-text{
+        font-size: 14px;
+    }
+
+    .Violation-content-list{
+        margin: 8px 0;
+    }
+
+    .Violation-sublist{
+        padding-left: 17px;
+        margin-top: 0px;
+    }
+
+    .Violation-sublist-text{
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .Icon{
+        min-width: 30px;
+        min-height: 30px;
+    }
+}
+
+@media (max-width: 425px){
+    .Violation-list-text{
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .Violation-content-list{
+        margin: 8px 0;
+    }
+
+    .Violation-sublist{
+        padding-left: 15px;
+        margin-top: 2px;
+    }
+    
+    .Violation-sublist-text{
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .Icon{
+        min-width: 28px;
+        min-height: 28px;
+    }
+}
+
+@media (max-width: 320px){
+    .Violation-list-text{
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .Violation-sublist{
+        padding-left: 14px;
+        margin-top: 5px;
+    }
+    
+    .Violation-sublist-text{
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .Icon{
+        min-width: 20px;
+        min-height: 20px;
+    }
+}

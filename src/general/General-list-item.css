@@ -1,0 +1,71 @@
+.General-list{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--dark-blue);
+    font-weight: 600;
+    border-bottom: 1px solid var(--dark-blue);
+}
+
+.General-list-text{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.Icon{
+    color: #158E19;
+    min-width: 40px;
+    min-height: 40px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 1024px){
+    .General-list-text{
+        font-size: 17px;
+        margin: 15px 0;
+    }
+    .Icon{
+        min-width: 35px;
+        min-height: 35px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .General-list-text{
+        font-size: 14px;
+        line-height: 18px;
+        margin: 12px 0;
+    }
+    .Icon{
+        min-width: 30px;
+        min-height: 30px;
+    }
+}
+
+@media (max-width: 425px){
+    .General-list-text{
+        font-size: 13px;
+        line-height: 15px;
+        margin: 10px 0;
+    }
+
+    .Icon{
+        min-width: 28px;
+        min-height: 28px;
+    }
+}
+
+@media (max-width: 320px){
+    .General-list-text{
+        font-size: 12px;
+        line-height: 13px;
+        margin: 9px 0;
+    }
+
+    .Icon{
+        min-width: 20px;
+        min-height: 20px;
+    }
+}

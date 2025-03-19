@@ -1,0 +1,10 @@
+.ViolationDo-Container{
+    overflow: hidden;
+}
+
+.ViolationDo-list-wrapper{
+    overflow: hidden;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}   

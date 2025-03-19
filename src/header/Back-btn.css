@@ -1,0 +1,39 @@
+.Header-wrapper{
+    display: flex;
+}
+
+.Back-btn{
+    position: absolute;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    color: var(--dark-blue);
+    transition:  0.3s ease;
+}
+
+.Back-btn:active{
+    transform: scale(0.9);
+}
+
+@media (max-width: 768px){
+    .Back-btn{
+        top: 27px;
+        right: 87%;
+    }
+}
+
+@media (max-width: 425px){
+    .Back-btn{
+        top: 27px;
+        right: 85%;
+    }
+}
+
+@media (max-width: 320px){
+    .Back-btn{
+        top: 25px;
+        right: 82%;
+    }
+}

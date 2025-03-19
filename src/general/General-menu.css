@@ -1,0 +1,79 @@
+.General-title-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.General-title{
+    cursor: pointer;
+    background-color: white;
+    padding: 6px 15px;
+    border-radius: 10px;
+    color: var(--dark-blue);
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+    transition: 0.3s;
+    border: 1px solid var(--dark-blue);
+}
+
+.General-title span{
+    font-size: 12px;
+}
+
+.General-title.active {
+    background-color: var(--dark-blue);
+    color: white;
+    transform: scale(1.1); 
+}
+
+/* Hover efek */
+.General-title:hover {
+    transform: scale(1.1); 
+}
+
+@media (max-width: 768px){
+    .General-title-wrapper{
+        gap: 20px;
+    }
+
+    .GeneralDo-title{
+        padding: 5px 12px;
+        font-size: 18px;
+    }
+
+    .GeneralDo-title span{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 425px){
+    .General-title-wrapper{
+        gap: 15px;
+    }
+
+    .General-title{
+        padding: 4px 10px;
+        font-size: 18px;
+    }
+
+    .General-title span{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px){
+    .General-title-wrapper{
+        gap: 10px;
+    }
+
+    .General-title{
+        padding: 3px 10px;
+        font-size: 14px;
+    }
+
+    .General-title span{
+        font-size: 10px;
+    }
+}
