@@ -5,22 +5,10 @@ import MainHeader from "./header/Main-header";
 import Menu from "./pages/Menu";
 import GeneralGuide from "./pages/GeneralGuide";
 import ViolationGuide from "./pages/ViolationGuide";
-import LoadingScreen from "./Loading";
 
 function Home() {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1500);
-  }, []);
-
   return (
     <div className="Home-container">
-      {isLoading ? (
-        <LoadingScreen />
-      ) : (
         <div className="Content-wrapper">
           <Router>
             <Routes>
@@ -54,7 +42,6 @@ function Home() {
             </Routes>
           </Router>
         </div>
-      )}
     </div>
   );
 }
