@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SCLive-Guide/static/css/main.73cd25c0.css",
+    "main.js": "/SCLive-Guide/static/js/main.8f709377.js",
+    "static/js/453.5e9c06e2.chunk.js": "/SCLive-Guide/static/js/453.5e9c06e2.chunk.js",
+    "static/media/sc-logo.png": "/SCLive-Guide/static/media/sc-logo.a9d7b3cc610c3256dcb9.png",
+    "index.html": "/SCLive-Guide/index.html",
+    "main.73cd25c0.css.map": "/SCLive-Guide/static/css/main.73cd25c0.css.map",
+    "main.8f709377.js.map": "/SCLive-Guide/static/js/main.8f709377.js.map",
+    "453.5e9c06e2.chunk.js.map": "/SCLive-Guide/static/js/453.5e9c06e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73cd25c0.css",
+    "static/js/main.8f709377.js"
+  ]
+}
